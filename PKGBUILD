@@ -1,12 +1,12 @@
 
-# Maintainer: Ticklebutt
+# Maintainer: Ticklebutt-miatmiot40@gmail.com
 
 pkgname=miyufetch-git
-pkgver=0.1.r0.g0000000
+pkgver=0.1.r1.g0305bf9
 pkgrel=1
 pkgdesc="Python system information fetch utility with optional artwork"
 arch=('any')
-url="https://github.com/YOUR_USERNAME/miyufetch"
+url="https://github.com/MrTickleButt808/miyufetch"
 license=('MIT')
 depends=('python')
 optdepends=(
@@ -15,7 +15,7 @@ optdepends=(
   'pciutils: detailed GPU identification'
 )
 makedepends=('git')
-source=("miyufetch::git+https://github.com/YOUR_USERNAME/miyufetch.git")
+source=("miyufetch::git+https://github.com/MrTickleButt808/miyufetch.git")
 sha256sums=('SKIP')
 
 pkgver() {

@@ -1,0 +1,16 @@
+pkgbase = miyufetch-git
+	pkgdesc = Python system information fetch utility with optional artwork
+	pkgver = 0.1.r1.g0305bf9
+	pkgrel = 1
+	url = https://github.com/MrTickleButt808/miyufetch
+	arch = any
+	license = MIT
+	makedepends = git
+	depends = python
+	optdepends = kitty: native terminal image display
+	optdepends = chafa: image rendering in other terminals
+	optdepends = pciutils: detailed GPU identification
+	source = miyufetch::git+https://github.com/MrTickleButt808/miyufetch.git
+	sha256sums = SKIP
+
+pkgname = miyufetch-git

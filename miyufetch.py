@@ -18,7 +18,6 @@ IMAGE = next(
         path for path in (
             Path(__file__).resolve().parent / "assets" / "miyuki_clean.png",
             Path("/usr/share/miyufetch/assets/miyuki_clean.png"),
-            Path.home() / "Projects/miyukifetch/assets/miyuki_clean.png",
         )
         if path.is_file()
     ),

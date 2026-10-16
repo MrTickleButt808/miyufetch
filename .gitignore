@@ -4,3 +4,5 @@ __pycache__/
 src/
 pkg/
 *.log
+
+/miyufetch/
